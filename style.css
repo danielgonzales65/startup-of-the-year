@@ -1,0 +1,57 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif; 
+  /*bacround code and backups are from bootstrap.com*/
+  background: url(image1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #e2dbdb;
+}
+
+/*horizontal line with aesthetic properties*/
+hr {
+	/*color of line*/
+	border-color: #31d2f2;
+	/*thickens the line by 3px*/
+	border-width: 3px;
+	/*restrics the width of the line to 65px*/
+	max-width: 65px;
+}
+
+.buffer{
+	height: 4rem;
+}
+/*Refering to the whole class in index.html
+This is the size and border roundness.*/
+.btn {
+	font-size: 1rem;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color: transparent;
+	border-color: #e2dbdb;
+}
+
+.btn-primary:hover{
+	background-color: #31d2f2;
+	border-color: #31d2f2;
+	border-width: 4px; 
+}
+
+/*This is custom CSS, like a layer in Photoshop. 
+We aren't adding more code,
+because it's only describing the size
+of the buttton. Padding effects the size.*/
+.btn-xl {
+	padding: 1rem 2rem;
+}
